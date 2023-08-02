@@ -16,6 +16,27 @@ p {
     margin: 30px auto;
 }
 
+.btn {
+    background-color: red;
+    font-size: 20px;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+.container a:hover,
+.btn:hover {
+    color: yellow;
+    background-color: greenyellow;
+
+}
+
 #fruit {
     float: left;
 }
@@ -28,4 +49,48 @@ p {
 #stationary {
     clear: both;
     width: 98%;
+}
+
+#overflow {
+    background-color: brown;
+    border: 2px solid gray;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow: auto;
+}
+
+.navBar {
+    background-color: coral;
+    border-radius: 30px;
+}
+
+.navBar ul li {
+    float: left;
+    list-style: none;
+    margin: 3px 11px;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+}
+
+.navBar ul li a:hover {
+    background-color: crisom;
+}
+
+.search {
+    float: right;
+    padding: 12px 60px;
+}
+
+.search input {
+    border: 2px;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 200px;
 }
