@@ -10,6 +10,22 @@ p {
 
 }
 
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+.container {
+    width: 700px;
+    border: 2px solid purple;
+    margin: 30px auto;
+}
+
+#fruit {
+    float: left;
+}
+
+#computer {
+    float: right;
+    width: 47%;
+}
+
+#stationary {
+    clear: both;
+    width: 98%;
+}
