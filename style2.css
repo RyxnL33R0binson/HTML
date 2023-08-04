@@ -1,3 +1,38 @@
+#titleColor {
+    color: #75ace3;
+}
+
+#titleBackground {
+    background-color: rgb(121, 37, 37);
+}
+
+#redHeading {
+    color: red
+}
+
+#blueHeading {
+    color: rgba(red, green, blue, alpha)
+}
+
+#test {
+    color: pink;
+}
+
+#headingDesign {
+    font-family: 'Borel', cursive;
+}
+
+.borderDesign1 {
+    border-color: rgb(204, 98, 98);
+    border-radius: 3px 3px 3px 3px;
+    border-right: dashed;
+}
+
+#backgroundimg {
+    background: url(https://images.app.goo.gl/V6AiiV3LuvbvFcav5) right bottom no-repeat, url(https://images.app.goo.gl/pHgtFMxEaMJ1hjSK8) left top no-repeat url(https://images.app.goo.gl/D9BJVdVYeD2rf51x6)right top repeat;
+    padding: 15px;
+}
+
 p {
     background-color: rgb(141, 234, 149);
 }
@@ -27,6 +62,13 @@ h3 {
     width: 700px;
     border: 2px solid purple;
     margin: 30px auto;
+}
+
+.box1 {
+    background-color: lightgreen;
+    height:30px;
+    position: sticky;
+    top:20px;
 }
 
 .box {
@@ -84,16 +126,80 @@ h3 {
     overflow: auto;
 }
 
-.navBar {
-    background-color: coral;
-    border-radius: 30px;
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
 }
 
+.nav-links a {
+    color: #fff;
+}
+
+/* LOGO */
+.logo {
+    font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.menu li {
+    padding: 5px 14px;
+}
+
+/* DROPDOWN MENU */
+.services {
+    position: relative;
+}
+
+.dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute;
+    /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+}
+
+.dropdown li+li {
+    margin-top: 10px;
+}
+
+.dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+}
+
+.dropdown li:hover {
+    background-color: #4c9e9e;
+}
+
+.services:hover .dropdown {
+    display: block;
+}
+/*
 .navBar ul li {
     float: left;
     list-style: none;
     margin: 3px 11px;
 }
+
 
 .navBar ul li a {
     text-decoration: none;
@@ -103,7 +209,7 @@ h3 {
 
 .navBar ul li a:hover {
     background-color: crisom;
-}
+}*/
 
 .search {
     float: right;
